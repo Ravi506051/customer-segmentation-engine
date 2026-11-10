@@ -35,3 +35,10 @@ The implementation in this repository is newly authored for this portfolio and i
 
 ## License
 No license has been added yet. Add a license before redistributing this repository.
+
+## Clustering Quality and Interpretation
+
+- Scale input features before distance-based clustering and document the selected feature set.
+- Compare candidate cluster counts using more than one diagnostic where practical.
+- Use PCA visualizations as an aid to interpretation, not as proof that clusters are naturally distinct.
+- Profile each segment in the original feature units and validate whether the groups are useful for the intended business question.
